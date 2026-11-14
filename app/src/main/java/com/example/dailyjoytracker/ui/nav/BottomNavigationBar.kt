@@ -51,6 +51,7 @@ fun BottomNavigationBar(
         modifier = Modifier
             .fillMaxWidth()
             .background(Color(0xFFF2EEFF))
+            .navigationBarsPadding()
             .padding(horizontal = 10.dp, vertical = 10.dp)
             .clip(RoundedCornerShape(40.dp))
             .background(Color.White)
